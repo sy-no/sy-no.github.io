@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Hello Jekyll!"
+title:  "Hello World, Hello Jekyll!"
 date:   2018-11-12 22:25:23 +0100
 categories: blog
+author: Sylvester Norrbjörk
 ---
 Hello Jekyll!
 
