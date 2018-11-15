@@ -25,9 +25,8 @@ but I hope that I will have the mental strength to pull through and achieve my g
 
 
 #### Website Technologies
-This website uses Jekyll which is found at GitHub:
-[jekyll](https://github.com/jekyll/jekyll)
+This website uses Jekyll as the Static Site Generator: [jekyll](https://jekyllrb.com/){:target="_blank"} | [jekyll sourcecode](https://github.com/jekyll/jekyll){:target="_blank"}
 
-This website uses the the Jekyll Minima theme that can be found here:
-[minima](https://github.com/jekyll/minima)
+This website uses the the Jekyll Minima theme:
+[minima](https://github.com/jekyll/minima){:target="_blank"}
 

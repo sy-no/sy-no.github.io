@@ -1,0 +1,15 @@
+/* CREATOR */
+	Author: Sylvester Norrbjörk
+	Contact: norrbjork [at] gmail.com
+	GitHub: @sy-no
+	From: Dalarna, Sweden
+  Lives in: Lecce, Italy
+
+/* SITE */
+	Last update: 2018/11/15
+	Language: English
+	Doctype: HTML5
+	IDE: Visual Studio Code
+  SSG: Jekyll
+  Theme: Jekyll-Minima
+  OS: Manjaro Linux
