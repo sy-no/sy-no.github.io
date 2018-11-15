@@ -30,3 +30,6 @@ This website uses Jekyll as the Static Site Generator: [jekyll](https://jekyllrb
 This website uses the the Jekyll Minima theme:
 [minima](https://github.com/jekyll/minima){:target="_blank"}
 
+
+{% include disqus.html %}
+
