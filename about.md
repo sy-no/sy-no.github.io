@@ -31,5 +31,3 @@ This website uses the the Jekyll Minima theme:
 [minima](https://github.com/jekyll/minima){:target="_blank"}
 
 
-{% include disqus.html %}
-
