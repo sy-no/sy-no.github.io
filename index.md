@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: Hello World, Hello Jekyll!
+author: Sylvester Norrbjörk
 ---
 ## Welcome to my website
 
