@@ -6,8 +6,10 @@ date:   2018-11-17 20:52:23 +0100
 categories: blog posts
 author: Sylvester Norrbjörk
 ---
-Think pre-processing the CSS code helps keeps things tidy and organized.
-With CSS you end up having to repeat lines of code again again, especially paths to elements. CSS pre-processors solve this by letting you nest elements. I used this technique to allow to set CSS properties at different levels without  having to create separate code blocks for each element. 
+I think pre-processing the CSS code helps keeps things tidy and organized.
+With CSS you end up having to repeat lines of code again again, especially paths to elements. CSS pre-processors solve this by letting you nest elements. 
+
+I used this technique to set CSS properties at different levels without having to create separate code blocks for each element. 
 
 This can also become a slight disadvantage though; if you create complicated nested syntaxes it can become a little hard to understand exactle what is being affected by the CSS properties.
 
