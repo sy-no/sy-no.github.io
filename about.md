@@ -25,10 +25,13 @@ Since I am now also working while studying I know that it is going to be really 
 but I hope that I will have the mental strength to pull through and achieve my goals.
 
 
+---
 #### Website Technologies
 This website uses Jekyll as the Static Site Generator: [jekyll](https://jekyllrb.com/){:target="_blank"} | [jekyll sourcecode](https://github.com/jekyll/jekyll){:target="_blank"}
 
-This website uses the the Jekyll Minima theme:
-[minima](https://github.com/jekyll/minima){:target="_blank"}
+Jekyll in turn is written in the Ruby programming language: [ruby](https://www.ruby-lang.org/en/){:target="_blank"}
+
+This website uses the the Jekyll Hacker theme:
+[hacker](https://github.com/pages-themes/hacker){:target="_blank"}
 
 
