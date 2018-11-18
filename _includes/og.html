@@ -1,10 +1,6 @@
-<meta content="Hello World, Hello Jekyll!" property="og:title">
-<meta content="website" property="og:type">
-<meta content="https://sy-no.github.io" property="og:url">
-<meta content="/assets/img/og.jpg" property="og:image">
-
-{% if %}
-<meta content="{{ page.excerpt }}" property="og:description">
-{% else %}
-<meta content="{{ site.description }}" property="og:description">
-{% endif %}
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/assets/img/og.jpg">
+<meta property="og:url" content="https://jameshfisher.com{{ page.url }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html }}">
+<meta property="og:site_name" content="sy-no.github.io">
