@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: default
 title: Blog
-permalink: /blog/
 ---
 
 ## Latest Posts
