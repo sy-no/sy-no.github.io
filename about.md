@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+## A little bit about me
+
 Hi, my name is Sylvester Norrbjörk. I am born in Dalarna, Sweden. I am 38 years old and work
 as a network administrator in Lecce, Italy. 
 
