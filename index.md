@@ -9,4 +9,4 @@ title: Home
 
 Work in progress...
 
-![Matrix code gif](/assets/img/matrix.gif)
+![Matrix code gif](/assets/img/code.gif)
