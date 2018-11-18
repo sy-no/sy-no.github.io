@@ -1,22 +1,30 @@
 <footer class="site-footer">
 
+  <hr>
   <div class="wrapper">
 
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+    <div class="floatLeft">
+      {%- if site.author -%}
+      {{ site.author | escape }}
+      {%- else -%}
+      {{ site.title | escape }}
+      {%- endif -%}
+      <br>
+      {%- if site.email -%}
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {%- endif -%}
+    </div>
 
-    {%- if site.author -%}
-    {{ site.author | escape }}
-    {%- else -%}
-    {{ site.title | escape }}
-    {%- endif -%}
+    <img src="/assets/img/lnu_logo_smaller.png" alt="Linnaeus University logo">
 
-    {%- if site.university -%}
-    <a href="https://lnu.se/en/">{{ site.university }}</a>
-    {%- endif -%}
+    <div class="floatRight">
+      <a href="https://coursepress.lnu.se/program/utveckling-och-drift-av-mjukvarusystem/">Programme: UDM</a>
+      {%- if site.university -%}
+      <br>
+      <a href="https://lnu.se/en/">{{ site.university }}</a>
+      {%- endif -%}
+    </div>
 
-    {%- if site.email -%}
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    {%- endif -%}
 
   </div>
 

@@ -4,13 +4,30 @@
   color: $alto;
 }
 
+/* LINKS */
 a {
-  margin: 0 1em;
+  margin: 0 0.5em;
 }
-
-/* Links */
 a:hover {
   text-decoration: none;
   color: $chelsea-cucumber;
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  .wrapper {
+    margin: 0 auto;
+    width: 80%;
+    img {
+      width: 50px;
+    }
+    .floatLeft {
+      float: left;
+    }
+    .floatRight {
+      float: right;
+    }
+  }
 }
 
