@@ -1,0 +1,23 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+
+    {%- if site.author -%}
+    {{ site.author | escape }}
+    {%- else -%}
+    {{ site.title | escape }}
+    {%- endif -%}
+
+    {%- if site.university -%}
+    <a href="https://lnu.se/en/">{{ site.university }}</a>
+    {%- endif -%}
+
+    {%- if site.email -%}
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    {%- endif -%}
+
+  </div>
+
+</footer>
