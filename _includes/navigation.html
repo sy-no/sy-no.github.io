@@ -3,7 +3,7 @@
   <a href="/posts">Posts</a>
   <a href="/about">About</a> -->
   {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>
+  <a href="{{ item.link }}" {% if page.url==item.link %} class="current" {% endif %}>
     {{ item.name }}
   </a>
   {% endfor %}
