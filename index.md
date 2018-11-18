@@ -8,3 +8,5 @@ title: Home
 ## Welcome to my website
 
 Work in progress...
+
+![Matrix code gif](/assets/img/matrix.gif)

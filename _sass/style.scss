@@ -1,4 +1,3 @@
-@import "rouge-base16-dark";
 @import "default_colors";
 
 $body-background: $cod-grey !default;
@@ -66,9 +65,17 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1:before {
-  content: " { ";
-  font-size: 24px;
+header {
+  h1:before {
+    content: "{ ";
+    color: $apple-blossom;
+    font-size: 24px;
+  }
+  h1:after {
+    content: " }";
+    color: $apple-blossom;
+    font-size: 24px;
+  }
 }
 
 header h2 {
@@ -194,13 +201,18 @@ a {
 }
 a:hover {
   color: $alto;
+  text-decoration: none;
 }
 
-.post-content {
+ul h2 {
   a:visited {
     color: #666;
   }
+  a:hover {
+    color: $alto;
+  }
 }
+
 nav a {
   margin-right: 1em;
 }
