@@ -1,9 +1,15 @@
 @import "default_colors";
 
 .current {
-  color: $apple-blossom;
+  color: $alto;
 }
 
 a {
   margin: 0 1em;
+}
+
+/* Links */
+a:hover {
+  text-decoration: none;
+  color: $chelsea-cucumber;
 }
